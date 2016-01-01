@@ -12,10 +12,13 @@ int main()
     switch(k.type){
       case Char:
         cout << k.ch << endl;
+        break;
       case Arrow:
-        cout << k.arrowKey << endl;
+        cout << ArrowKeyName[k.arrowKey] << endl;
+        break;
       case Unknown:
         cout << "Unknown" << endl;
+        break;
     }
   }
 

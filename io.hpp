@@ -6,6 +6,7 @@
 #include <termios.h>
 
 using ArrowKey = enum{Up,Down,Left,Right};
+const std::string ArrowKeyName[] = {"Up","Down","Left","Right"};
 using KeyType = enum{Arrow,Char,Unknown};
 
 using Key = struct {

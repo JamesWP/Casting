@@ -68,9 +68,9 @@ Key getKey()
     case 'B':
       return {.type = Arrow, .arrowKey = Down};
     case 'C':
-      return {.type = Arrow, .arrowKey = Left};
-    case 'D':
       return {.type = Arrow, .arrowKey = Right};
+    case 'D':
+      return {.type = Arrow, .arrowKey = Left}; 
     default:
       return {.type = Unknown};
     }
